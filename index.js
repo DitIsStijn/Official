@@ -2,7 +2,6 @@ const botconfig = require("./botconfig.json");
 const Discord = require("discord.js");
 const fs = require("fs");
 const bot = new Discord.Client();
-const Welcome = require("discord-welcome");
 bot.commands = new Discord.Collection();
 //let xp = require("./xp.json");
 let purple = botconfig.purple;
